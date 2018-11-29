@@ -125,7 +125,7 @@ shinyServer(
           "section contains questions regarding the whole image.
           These answers can be saved by clicking the Save Image button or continuing to the next image."),
           br(),
-          p("",
+          p("Hi"),
         status = "warning",
         solidHeader = TRUE,
         collapsible = TRUE,
@@ -133,11 +133,6 @@ shinyServer(
         )
     })
 
-# "Hold and drag the mouse over the image to create a shaded rectangle.
-#         Answer the", strong("Selection"), "questions for the highlighted area.
-#           The answers to these questions will relate only to the location currently selected.",strong("This doesnt acutally work yet -JL"),
-#           "To save these answers, click the", strong("Save Selection"), "button. You can now select a new area"), br(),
-#         "It is possible to view or", strong(" edit "), "the answers provided by", strong(" double clicking ")," within the area."
     output$ui_questions <- renderUI({
       if(!is.null(current_sel())){
         box(
