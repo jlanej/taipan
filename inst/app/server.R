@@ -127,8 +127,8 @@ shinyServer(
           br(),
           p("Hold and drag the mouse over the image to create a shaded rectangle.
         Answer the", strong("Selection"), "questions for the highlighted area.
-          The answers to these questions will relate only to the location currently selected.
-          To save these answers, click the", strong("Save Selection"), "button. You can now select a new area"), br(),
+          The answers to these questions will relate only to the location currently selected.",strong("This doesnt acutally work yet -JL"),
+          "To save these answers, click the", strong("Save Selection"), "button. You can now select a new area"), br(),
         "It is possible to view or", strong(" edit "), "the answers provided by", strong(" double clicking ")," within the area.",
         status = "warning",
         solidHeader = TRUE,
