@@ -4,7 +4,7 @@ library(shinydashboard)
 shinyUI(
   dashboardPage(
     dashboardHeader(
-      title = "taipan",
+      title = "SV evaluation",
       tags$li(class = "dropdown", downloadLink("btn_export", span(icon("download"), " Export Responses"))),
       tags$li(class = "dropdown", a(href="https://github.com/srkob1/taipan", target="_blank", span(icon("github"), " GitHub")))
     ),
